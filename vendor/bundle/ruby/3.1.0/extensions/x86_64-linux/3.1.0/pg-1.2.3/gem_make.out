@@ -1,0 +1,234 @@
+current directory: /home/developer/project/chatapp/vendor/bundle/ruby/3.1.0/gems/pg-1.2.3/ext
+/home/developer/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/developer/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220723-139801-x8u7ls.rb extconf.rb
+checking for pg_config... yes
+Using config values from /usr/bin/pg_config
+checking for libpq-fe.h... yes
+checking for libpq/libpq-fs.h... yes
+checking for pg_config_manual.h... yes
+checking for PQconnectdb() in -lpq... yes
+checking for PQsetSingleRowMode()... yes
+checking for PQconninfo()... yes
+checking for PQsslAttribute()... yes
+checking for PQresultVerboseErrorMessage()... yes
+checking for PQencryptPasswordConn()... yes
+checking for PQresultMemorySize()... yes
+checking for timegm()... yes
+checking for rb_gc_adjust_memory_usage()... yes
+checking for unistd.h... yes
+checking for inttypes.h... yes
+checking for C99 variable length arrays... yes
+creating extconf.h
+creating Makefile
+
+current directory: /home/developer/project/chatapp/vendor/bundle/ruby/3.1.0/gems/pg-1.2.3/ext
+make DESTDIR\= clean
+
+current directory: /home/developer/project/chatapp/vendor/bundle/ruby/3.1.0/gems/pg-1.2.3/ext
+make DESTDIR\=
+compiling gvl_wrappers.c
+In file included from pg.h:61,
+                 from gvl_wrappers.c:6:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg.c
+In file included from pg.h:61,
+                 from pg.c:49:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_binary_decoder.c
+In file included from pg.h:61,
+                 from pg_binary_decoder.c:8:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_binary_encoder.c
+In file included from pg.h:61,
+                 from pg_binary_encoder.c:7:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_coder.c
+In file included from pg.h:61,
+                 from pg_coder.c:6:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_connection.c
+In file included from pg.h:61,
+                 from pg_connection.c:7:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_copy_coder.c
+In file included from pg.h:61,
+                 from pg_copy_coder.c:6:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_errors.c
+In file included from pg.h:61,
+                 from pg_errors.c:6:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_record_coder.c
+In file included from pg.h:61,
+                 from pg_record_coder.c:6:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_result.c
+In file included from pg.h:61,
+                 from pg_result.c:7:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_result.c: In function ‘init_pg_result’:
+pg_result.c:1590:2: warning: ‘rb_cData’ is deprecated: by: rb_cObject.  Will be removed in 3.1. [-Wdeprecated-declarations]
+ 1590 |  rb_cPGresult = rb_define_class_under( rb_mPG, "Result", rb_cData );
+      |  ^~~~~~~~~~~~
+In file included from /home/developer/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/internal/core.h:27,
+                 from /home/developer/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/ruby.h:28,
+                 from /home/developer/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:20,
+                 from pg_result.c:7:
+/home/developer/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/internal/core/rdata.h:382:1: note: declared here
+  382 | rb_cData(void)
+      | ^~~~~~~~
+pg_result.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_text_decoder.c
+In file included from pg.h:61,
+                 from pg_text_decoder.c:32:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_text_encoder.c
+In file included from pg.h:61,
+                 from pg_text_encoder.c:43:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_tuple.c
+In file included from pg.h:61,
+                 from pg_tuple.c:1:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_type_map.c
+In file included from pg.h:61,
+                 from pg_type_map.c:7:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_type_map_all_strings.c
+In file included from pg.h:61,
+                 from pg_type_map_all_strings.c:9:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_type_map_by_class.c
+In file included from pg.h:61,
+                 from pg_type_map_by_class.c:10:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_type_map_by_column.c
+In file included from pg.h:61,
+                 from pg_type_map_by_column.c:7:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_type_map_by_mri_type.c
+In file included from pg.h:61,
+                 from pg_type_map_by_mri_type.c:10:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_type_map_by_oid.c
+In file included from pg.h:61,
+                 from pg_type_map_by_oid.c:7:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_type_map_in_ruby.c
+In file included from pg.h:61,
+                 from pg_type_map_in_ruby.c:7:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling pg_util.c
+In file included from pg.h:61,
+                 from pg_util.c:7:
+/usr/include/postgresql/pg_config_manual.h:132:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  132 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+linking shared-object pg_ext.so
+
+current directory: /home/developer/project/chatapp/vendor/bundle/ruby/3.1.0/gems/pg-1.2.3/ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 pg_ext.so ./.gem.20220723-139801-1u6z21
